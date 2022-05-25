@@ -129,6 +129,18 @@ Hier sind die Befehle:
 	Benutzer: admin
 	Passwort: admin
 
+## InfluxDB
+
+> docker compose exec -it influxdb /bin/bash
+
+> inlfux
+
+	Influx Befehle eingeben, z.B. SHOW DATABASES
+
+> exit
+
+> exit
+
 
 # Optionale Software:
 
