@@ -155,6 +155,11 @@ Hier sind die Befehle:
 > http://localhost:1880/
 
 
+## MQTT
+
+> sudo nano ./mqtt/config/mosquitto.conf
+
+
 
 # Optionale Software:
 
