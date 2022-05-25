@@ -26,7 +26,9 @@ Software:
 
 
 
-# Installtion vom Raspberry OS
+# Schritt für Schritt Installation
+
+## Installtion vom Raspberry OS
 
 Als erstes wird der Raspberry Pi Imager benötigt.
 
@@ -42,7 +44,7 @@ Mit dem nachfolgenden Befehl wird das System auf den neusten Stand gebracht.
 	Upgrade auf aktuelle Version:
 > sudo apt update && sudo apt upgrade -y
 
-# Argon One Gehäuse
+## Argon One Gehäuse
 	Aktualisieren und curl installieren:
 > sudo apt update && sudo apt install curl -y
 
@@ -58,7 +60,7 @@ Mit dem nachfolgenden Befehl wird das System auf den neusten Stand gebracht.
 > argonone-uninstall
 
 
-## Argon One Funktionen
+### Argon One Funktionen
 
 
 ARGON ONE (V2) PI 4 STATE | ACTION | FUNCTION
@@ -70,7 +72,7 @@ ON | Double Tap | Reboot
 ON | Long Press (>= 5 s) | Forced Shutdown
 
 
-# Docker und Docker Compose installieren
+## Docker und Docker Compose installieren
 
 Docker nach der aktuellen Anleitungen installieren.
 Hier sind die Befehle:
@@ -106,7 +108,7 @@ Hier sind die Befehle:
 >docker compose up -d
 
 
-# Server einrichten
+## Server einrichten
 	Ordner erstellen und in diesen wechseln:
 > mkdir NAMEdesORDNERS
 
@@ -119,12 +121,12 @@ oder:
 >gitclone https://meine.neue.gitaddress.com
 
 
-# Pihole
+## Pihole
 	Pihole Installations Script starten
 > curl -sSL https://install.pi-hole.net | bash
 
 
-# Tailscale
+## Tailscale
 Es wird ein Konto bei Tailscale benötigt. Dies bitte anlegen.
 
 	notwendige Pakete installieren:
