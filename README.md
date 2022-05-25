@@ -1,6 +1,6 @@
 # camper-server
 
-Dies ist eine Sammlung von Software, um den Raspberry Pi in einen Server zur überwachung von Campern und Booten macht.
+Dies ist eine Sammlung von Software, um den Raspberry Pi in einen Server zur Überwachung von Campern und Booten zu  machen.
 
 
 # Installtion vom Raspberry OS
