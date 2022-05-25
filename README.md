@@ -13,7 +13,18 @@ Hardware:
 - Optional: Zigbee USB Stick für Zigbee2MQTT
 
 Software:
-- 
+- ssh-Client z.B. PuTTY
+- Für Kurzanleitung: RasbianOS 32bit, Docker und Docker-Compose-Plugin
+
+# Kurzanleitung:
+
+> git clone https://github.com/kuroland-de/camper-server.git
+
+> cd camper-server/
+
+> docker compose up -d
+
+
 
 # Installtion vom Raspberry OS
 
