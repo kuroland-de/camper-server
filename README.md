@@ -109,17 +109,18 @@ Hier sind die Befehle:
 
 
 ## Server einrichten
-	Ordner erstellen und in diesen wechseln:
-> mkdir NAMEdesORDNERS
 
->cd NAMEdesORDNERS
+	Diese Verzeichnis von Github herunterladen:
+> git clone https://github.com/kuroland-de/camper-server.git
 
-	Herunterladen oder erstellen von docker-compose.yml
->nano docker-compose.yml
+	In das Verzeichnis wechseln:
+> cd camper-server/
 
-oder:
->gitclone https://meine.neue.gitaddress.com
+	Server Donload, Installation und Start:
+> docker compose up -d
 
+
+# Optionale Software:
 
 ## Pihole
 	Pihole Installations Script starten
