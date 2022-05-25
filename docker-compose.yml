@@ -48,19 +48,21 @@ services:
 #### zigbee usb stick wird benötigt. mit lsusb die addresse suchen und hier anpassen. ####
 
 
-  zigbee:
-    image: koenkk/zigbee2mqtt
-    volumes:
-      - ./zigbee-data:/app/data
-      - /run/udev:/run/udev:ro
-    ports:
-      - 8080:8080
-    environment:
-      - TZ=Europe/Berlin
+#  zigbee:
+#    image: koenkk/zigbee2mqtt
+#    volumes:
+#      - ./zigbee-data:/app/data
+#      - /run/udev:/run/udev:ro
+#    ports:
+#      - 8080:8080
+#    environment:
+#      - TZ=Europe/Berlin
 #### addresse anpassen ####
-    devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
-    restart: always
+#    devices:
+#      - "/dev/ttyACM0:/dev/ttyACM0"
+#      - "/dev/ttyACM1:/dev/ttyACM1"
+#      - /dev/ttyUSB0:/dev/ttyUSB0
+#    restart: always
 
 
 #  zigbee:
