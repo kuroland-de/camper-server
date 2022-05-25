@@ -1,12 +1,12 @@
-version: '3.8'
+version: '3.4'
 services:
   victron:
-    image: "victronenergy/venus-docker-server:latest"
+    image: "victronenergy/venus-docker-server:2.4.0"
 # Ports können nach dem Einrichten gesperrt werden
     ports:
-     - "8088:8088"
+      - "8088:8088"
     volumes:
-     - "victron:/config"
+      - "victron:/config"
     restart: always
 
   influxdb:
