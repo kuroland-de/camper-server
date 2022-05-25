@@ -1,7 +1,19 @@
 # camper-server
 
-Dies ist eine Sammlung von Software, um den Raspberry Pi in einen Server zur Überwachung von Campern und Booten zu  machen.
+Dies ist eine Sammlung von Software, um aus dem Raspberry Pi, einen Server zur Überwachung von Campern und Booten zu  machen.
 
+# Voraussetzungen:
+
+Hardware:
+- Raspberry Pi inkl. Netzteil (Empfehlung ist der Raspberry Pi 4 mit 4 Gb Ram und das Netzteil vom Hersteller)
+- SD-Karte oder SSD (Empfehlung SSD)
+- PC und Netzwerk mit Internet für die Installation
+- Optional: Gehäuse (Empfehlung Argon One M.2)
+- Optional: Victron GX Controller
+- Optional: Zigbee USB Stick für Zigbee2MQTT
+
+Software:
+- 
 
 # Installtion vom Raspberry OS
 
