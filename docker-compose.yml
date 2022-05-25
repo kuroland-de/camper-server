@@ -3,8 +3,8 @@ services:
   victron:
     image: "victronenergy/venus-docker-server:latest"
 # Ports können nach dem Einrichten gesperrt werden
-#    ports:
-#     - "8088:8088"
+    ports:
+     - "8088:8088"
     volumes:
      - "victron:/config"
     restart: always
@@ -35,7 +35,7 @@ services:
   mqtt:
     image: eclipse-mosquitto
     volumes:
-      - ./mqtt/conf:/mosquitto/config
+      - ./mqtt/config:/mosquitto/config
       - ./mqtt/data:/mosquitto/data
       - ./mqtt/log:/mosquitto/log
     ports:
