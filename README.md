@@ -149,6 +149,13 @@ Hier sind die Befehle:
 	Benutzer: admin
 	Passwort: admin
 
+
+## NodeRed
+
+> http://localhost:1880/
+
+
+
 # Optionale Software:
 
 ## Pihole
