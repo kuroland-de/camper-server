@@ -162,13 +162,22 @@ Hier sind die Befehle:
 
 
 # Optionale Software:
+## RaspAP:
+
+RaspAP stellt einen Accespoint inkl. DHCP-Server und Weboberfläche bereit. Sollte kein andere Router im Neztwerk sein wird RaspAP benötig.
+
 
 ## Pihole
+
+Pihole stellt ein DNS-Server und Filter bereit, mit dem man Werbung blocken kann.
+
 	Pihole Installations Script starten
 > curl -sSL https://install.pi-hole.net | bash
 
 
 ## Tailscale
+
+Tailscale ist ein Dienst um leicht Fernzugriff zuerlangen.
 Es wird ein Konto bei Tailscale benötigt. Dies bitte anlegen.
 
 	notwendige Pakete installieren:
