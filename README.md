@@ -142,6 +142,13 @@ Hier sind die Befehle:
 > exit
 
 
+## Grafana
+
+> http://localhost:3000/
+
+	Benutzer: admin
+	Passwort: admin
+
 # Optionale Software:
 
 ## Pihole
