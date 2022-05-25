@@ -133,7 +133,7 @@ Hier sind die Befehle:
 
 > docker compose exec -it influxdb /bin/bash
 
-> inlfux
+> influx
 
 	Influx Befehle eingeben, z.B. SHOW DATABASES
 
