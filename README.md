@@ -120,6 +120,15 @@ Hier sind die Befehle:
 > docker compose up -d
 
 
+# Konfiguration
+
+## Victron
+
+> http://localhost:8088
+	Benutzer: admin
+	Passwort: admin
+
+
 # Optionale Software:
 
 ## Pihole
