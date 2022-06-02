@@ -1,6 +1,6 @@
 # camper-server
 
-Dies ist eine Sammlung von Software, um aus dem Raspberry Pi, einen Server zur Überwachung von Campern und Booten zu  machen.
+Dies ist eine Anleitung, um aus dem Raspberry Pi, einen Server zur Überwachung von Campern und Booten zu  machen.
 
 # Voraussetzungen:
 
