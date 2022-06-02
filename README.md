@@ -116,6 +116,9 @@ Hier sind die Befehle:
 	In das Verzeichnis wechseln:
 > cd camper-server/
 
+	Bei Bedarf die Docker-Compose-Datei anpassen:
+> nano docker-compose.yml
+
 	Server Donload, Installation und Start:
 > docker compose up -d
 
