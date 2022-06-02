@@ -162,17 +162,6 @@ Hier sind die Befehle:
 
 
 # Optionale Software:
-## RaspAP:
-
-RaspAP stellt einen Accespoint inkl. DHCP-Server und Weboberfläche bereit. Sollte kein andere Router im Neztwerk sein wird RaspAP benötig.
-
-
-## Pihole
-
-Pihole stellt ein DNS-Server und Filter bereit, mit dem man Werbung blocken kann.
-
-	Pihole Installations Script starten
-> curl -sSL https://install.pi-hole.net | bash
 
 
 ## Tailscale
@@ -201,8 +190,10 @@ tskey-abcdef1432341818
 
 In der Übersicht vom Tailscale Konto sollte der RaspberryPi nun auftauchen. Damit Sie nicht regelmäßig einen neuen Schlüssel eingeben müssen, klicken Sie in der Übersicht hinter dem RaspberryPi auf die Menüpunkte und dann auf "Disable key expiry"
 
-Um aus der Ferne nicht nur auf den Raspberry Pi sondern auch auf andere Netzwerkgeräte zugreifen zukönnen muss das Netzwerk noch freigegeben werden.
 
+## Tailscale: Zugriff auf das Netzwerk
+Um aus der Ferne nicht nur auf den Raspberry Pi sondern auch auf andere Netzwerkgeräte zugreifen zukönnen, muss das Netzwerk noch freigegeben werden.
+Dies empfehle ich nur in Verbindung mit einem seperaten Router/DHCP-Server und ohne die Installtion von RaspAP.
 
 	ipv4 und ipv6 Forwarding:
 >echo 'net.ipv4.ip_forward = 1' | sudo tee -a /etc/sysctl.conf
@@ -215,4 +206,28 @@ Um aus der Ferne nicht nur auf den Raspberry Pi sondern auch auf andere Netzwerk
 > sudo tailscale up --advertise-routes=10.0.0.0/24,10.0.1.0/24
 
 Anschließen wieder im Konto auf das Menü von dem Raspberry Pi klicken und unter "Edit route settings" das Netzwerk noch freigeben.
+
+
+## RaspAP:
+
+RaspAP stellt einen Accespoint inkl. DHCP-Server und Weboberfläche bereit. Sollte kein andere Router im Neztwerk sein wird RaspAP benötig.
+
+
+> sudo apt update && sudo apt upgrade
+
+> sudo raspi-config
+
+	In den Localisation Options den WiFi-Länderkot setzen
+ 
+> sudo reboot
+
+> curl -sL https://install.raspap.com | bash
+
+	Standarteinstellungen nach Installation:
+>IP address: 10.3.141.1
+>Username: admin
+>Password: secret
+>DHCP range: 10.3.141.50 — 10.3.141.255
+>SSID: raspi-webgui
+>Password: ChangeMe
 
