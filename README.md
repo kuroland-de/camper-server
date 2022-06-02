@@ -217,7 +217,7 @@ RaspAP stellt einen Accespoint inkl. DHCP-Server und Weboberfläche bereit. Soll
 
 > sudo raspi-config
 
-	In den Localisation Options den WiFi-Länderkot setzen
+	In den Localisation Options den WiFi-Ländercode setzen
  
 > sudo reboot
 
