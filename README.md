@@ -119,7 +119,7 @@ Hier sind die Befehle:
 	Bei Bedarf die Docker-Compose-Datei anpassen:
 > nano docker-compose.yml
 
-	Server Donload, Installation und Start:
+	Server Download, Installation und Start:
 > docker compose up -d
 
 
