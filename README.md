@@ -163,6 +163,12 @@ Hier sind die Befehle:
 > sudo nano ./mqtt/config/mosquitto.conf
 
 
+## OpenHab
+
+	Wird nicht im Standart installiert, Docker-Compose-Datei muss angepasst werden.
+> http://localhost:8080
+
+
 
 # Optionale Software:
 
