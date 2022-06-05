@@ -11,6 +11,9 @@ Hardware:
 - Optional: Gehäuse (Empfehlung Argon One M.2)
 - Optional: Victron GX Controller
 - Optional: Zigbee USB Stick für Zigbee2MQTT
+- Optional: LTE-USB-Stick
+- Optional: 1 bis 2 USB-A Verlängerung
+- Optional: USB-A/USB-A Kabel für Programmierung
 
 Software:
 - ssh-Client z.B. PuTTY
