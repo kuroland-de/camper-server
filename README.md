@@ -176,10 +176,16 @@ Zigbee2MQTT sorgt mittels einem passenden Ziggbee-USB Stick für die Verbindung 
 > sudo nano ./mqtt/config/mosquitto.conf
 
 
-## OpenHab
+## Zigbee2MQTT
 
 	Wird nicht im Standart installiert, Docker-Compose-Datei muss angepasst werden.
 > http://localhost:8080
+
+
+## OpenHab
+
+	Wird nicht im Standart installiert, Docker-Compose-Datei muss angepasst werden.
+> http://localhost:8081
 
 
 
