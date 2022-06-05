@@ -43,7 +43,7 @@ services:
       - "9001:9001"
     restart: always
 
-#### zigbee usb stick wird benötigt. mit lsusb die addresse suchen und hier anpassen. ####
+#### zigbee usb stick wird benötigt. die addresse suchen und hier anpassen. ####
 
 #  zigbee2mqtt:
 #    container_name: zigbee2mqtt
