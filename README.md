@@ -138,20 +138,13 @@ Zigbee2MQTT sorgt mittels einem passenden Ziggbee-USB Stick für die Verbindung 
 
 # Konfiguration
 
-## Victron
-
-> http://localhost:8088
-
-	Benutzer: admin
-	Passwort: admin
-
 ## InfluxDB
 
 > docker compose exec -it influxdb /bin/bash
 
 > influx
 
-	Influx Befehle eingeben, z.B. SHOW DATABASES
+	Influx Befehle eingeben, z.B. SHOW DATABASES, CREATE DATABASE NAMEderDatenbank
 
 > exit
 
