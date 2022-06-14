@@ -1,14 +1,5 @@
-version: '3.4'
+version: '3.8'
 services:
-  victron:
-    image: "victronenergy/venus-docker-server:2.4.0"
-### Ports können nach dem Einrichten gesperrt werden ###
-    ports:
-      - "8088:8088"
-    volumes:
-      - "victron:/config"
-    restart: always
-
   influxdb:
     image: "arm32v7/influxdb:latest"
 ### WARNUNG: keine sichere Installation von Influxdb, ports nicht freigeben oder für Sicherheit sorgen ###
@@ -62,18 +53,6 @@ services:
 
 #### Weitere Dienste zum Testen ####
 
-#  homeassistant:
-#    image: "ghcr.io/home-assistant/home-assistant:stable"
-#    ports:
-#      - "8123:8123"
-#    volumes:
-#      - ./homeassistant:/config
-#      - /etc/localtime:/etc/localtime:ro
-#    restart: always
-#    privileged: true
-
-
-
 #  openhab:
 #    image: "openhab/openhab:3.2.0"
 #    ports:
@@ -99,7 +78,16 @@ services:
 #    volumes:
 #      - "./iobrokerdata:/opt/iobroker"
 
-
+### Diese Version von Homeassitant kann keine addons installieren ###
+#  homeassistant:
+#    image: "ghcr.io/home-assistant/home-assistant:stable"
+#    ports:
+#      - "8123:8123"
+#    volumes:
+#      - ./homeassistant:/config
+#      - /etc/localtime:/etc/localtime:ro
+#    restart: always
+#    privileged: true
 
 
 volumes:
