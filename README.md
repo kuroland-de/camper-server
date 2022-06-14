@@ -130,7 +130,7 @@ Hier sind die Befehle:
 Zigbee2MQTT sorgt mittels einem passenden Ziggbee-USB Stick für die Verbindung von Sensoren/Aktoren und MQTT(-Broker). In der Standartinstalltion wird Zigbee2MQTT nicht mit installiert. Um Zigbee2MQTT zu installieren muss die docker-compose.yml Datei angepasst werden.
 
 	Befehl um Addresse vom Zigbee-Stick zu ermitteln:
-> ls /dev/*USB*
+> ls /dev/\*USB\*
 
 
 	docker-compose.yml ändern:
